@@ -21,4 +21,4 @@ x = 1 + 1/2 + 1/3 + 1/4
 
 		voltaje = intensidad * resistencia
 
-[Ejercicio 2 Resuelto](http://)
+[Ejercicio 2 Resuelto](https://github.com/JArandaIzquierdo/FundamentosDeProgramacion/blob/master/Ejercicios/EjerciciosTema1/Ejercicio2.cpp)
