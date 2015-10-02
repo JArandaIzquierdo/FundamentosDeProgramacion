@@ -14,9 +14,19 @@
      	x = x + i / a;
         
 a = 4
+
 x = 1 + 1/2 + 1/3 + 1/4
 
 ##### 2. Crear un programa que pida un valor de intensidad y resistencia e imprima el voltaje correspondiente, según la Ley de Ohm:
 
 		voltaje = intensidad * resistencia
-        
+
+```c
+# include <iostream>
+# using namespace std;
+int main(){
+
+
+}
+
+```
