@@ -21,12 +21,4 @@ x = 1 + 1/2 + 1/3 + 1/4
 
 		voltaje = intensidad * resistencia
 
-```c
-# include <iostream>
-# using namespace std;
-int main(){
-
-
-}
-
-```
+[Ejercicio 2 Resuelto](http://)
