@@ -53,3 +53,5 @@ x = 1 + 1/2 + 1/3 + 1/4
 #####Supongamos que queremos modificar la variable original capital con el nuevo valor de total. ¿Es posible hacerlo directamente en la expresión de arriba?
 
 [Ejercicio 6 Resuelto](https://github.com/JArandaIzquierdo/FundamentosDeProgramacion/blob/master/Ejercicios/EjerciciosTema1/Ejercicio6.cpp)
+
+##### 7. Escriba un programa que calcule el consumo de gasolina. Pedirá la distancia recorrida (en kms), los litros de gasolina consumidos y los litros que quedan en el depósito. El programa debe informar el consumo en km/litro, los litros/100 km y cuantos kilómetros de autonomía le restan con ese nivel de consumo. Utilice nombres de variables significativos.
