@@ -22,3 +22,34 @@ x = 1 + 1/2 + 1/3 + 1/4
 		voltaje = intensidad * resistencia
 
 [Ejercicio 2 Resuelto](https://github.com/JArandaIzquierdo/FundamentosDeProgramacion/blob/master/Ejercicios/EjerciciosTema1/Ejercicio2.cpp)
+
+##### 3. Escriba un programa que lea por pantalla la cantidad en millas (como un real) y muestre la cantidad equivalente en kilómetros. Debe tener en cuenta que 1 milla equivale a 1'609 kilómetros.
+
+[Ejercicio 3 Resuleto](https://github.com/JArandaIzquierdo/FundamentosDeProgramacion/blob/master/Ejercicios/EjerciciosTema1/Ejercicio3.cpp)
+
+##### 4. Realizar un programa que nos pida una longitud cualquiera dada en yardas. El programa deberá calcular el equivalente de dicha longitud en pulgadas, pies, millas y millas marinas, y mostrarnos los resultados en pantalla. Para el cálculo, utilice la siguiente tabla de conversión del sistema métrico:
+	￼1 pulgada= 25,4 milímetros
+	1 pie = 30,48 centímetros
+	1 yarda = 0,9144 metros
+	1 milla = 1609,344 metros
+	1 milla marina = 1852 metros
+￼￼￼￼￼￼￼
+[Ejercicio 4 Resuelto](https://github.com/JArandaIzquierdo/FundamentosDeProgramacion/blob/master/Ejercicios/EjerciciosTema1/Ejercicio4.cpp)
+
+##### 5. De http://countrymeters.info se obtienen los siguientes datos estimados sobre la población de China:
+	• nace una persona cada 1.87 segundos
+	• muere una persona cada 3.27 segundos
+	• emigra una personada cada 71.9 segundos
+##### Escriba un programa que muestre la población dentro de 2 años, considerando que la población actual es de 1.375.570.814 personas.
+
+[Ejercicio 5 Resuelto](https://github.com/JArandaIzquierdo/FundamentosDeProgramacion/blob/master/Ejercicios/EjerciciosTema1/Ejercicio5.cpp)
+
+##### 6. Un banco presenta la siguiente oferta. Si se deposita una cantidad de euros capital durante un año a plazo fijo, se dará un interés dado por la variable interes. Realizad un programa que lea una cantidad capital y un interés interes desde teclado y calcule en una variable total el dinero que se tendrá al cabo de un año, aplicando la fórmula:
+
+					total = capital + capital ∗ (interes / 100)
+
+##### Es importante destacar que el compilador primero evaluará la expresión de la parte derecha de la anterior asignación (usando el valor que tuviese la variable capital) y a continuación ejecutará la asignación, escribiendo el valor resultante de la expresión dentro de la variable total.
+##### A continuación, el programa debe imprimir en pantalla el valor de la variable total. Tanto el capital como el interés serán valores reales. Supondremos que el usuario introduce el interés como un valor real entre 0 y 100, es decir, un interés del 5,4 % se introducirá como 5.4. También supondremos que lo introduce correctamente, es decir, que sólo introducirá valores entre 0 y 100.
+#####Supongamos que queremos modificar la variable original capital con el nuevo valor de total. ¿Es posible hacerlo directamente en la expresión de arriba?
+
+[Ejercicio 6 Resuelto](https://github.com/JArandaIzquierdo/FundamentosDeProgramacion/blob/master/Ejercicios/EjerciciosTema1/Ejercicio6.cpp)
