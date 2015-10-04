@@ -71,5 +71,10 @@ x = 1 + 1/2 + 1/3 + 1/4
 [Ejercicio 9 Resuelto](https://github.com/JArandaIzquierdo/FundamentosDeProgramacion/blob/master/Ejercicios/EjerciciosTema1/Ejercicio9.cpp)
 
 ##### 10. Escribid un algoritmo para calcular la media aritmética muestral y la desviación es- tándar (o típica) muestral de las alturas de tres personas (n=3). Éstos valores serán reales (de tipo double). La fórmula general para un valor arbitrario de n es:
-￼￼￼￼￼X representa la media aritmética y σ la desviación estándar. Para resolver este pro- blema es necesario usar la función sqrt (raíz cuadrada) que se encuentra en la bi- blioteca cmath.
-Estas medidas se utilizan mucho en Estadística para tener una idea de la distri- bución de datos. La media (mean en inglés) nos da una idea del valor central y
+
+![](https://github.com/JArandaIzquierdo/FundamentosDeProgramacion/blob/master/images/Captura%20de%20pantalla%202015-10-04%20a%20las%2021.11.59.png)
+￼￼￼￼￼
+##### X representa la media aritmética y σ la desviación estándar. Para resolver este pro- blema es necesario usar la función sqrt (raíz cuadrada) que se encuentra en la bi- blioteca cmath.
+#####Estas medidas se utilizan mucho en Estadística para tener una idea de la distri- bución de datos. La media (mean en inglés) nos da una idea del valor central y la desviación típica (standard deviation) nos da una idea de la dispersión de és- tos. Ejecutad el programa con varios valores y comprobad que el resultado es co- rrecto utilizando una calculadora científica o cualquier calculadora online como por ejemplo la disponible en http://www.disfrutalasmatematicas.com/datos/ desviacion-estandar-calculadora.html
+
+[Ejercicio 10 Resuelto](https://github.com/JArandaIzquierdo/FundamentosDeProgramacion/blob/master/Ejercicios/EjerciciosTema1/Ejercicio10.cpp)
