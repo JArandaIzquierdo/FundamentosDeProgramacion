@@ -55,3 +55,21 @@ x = 1 + 1/2 + 1/3 + 1/4
 [Ejercicio 6 Resuelto](https://github.com/JArandaIzquierdo/FundamentosDeProgramacion/blob/master/Ejercicios/EjerciciosTema1/Ejercicio6.cpp)
 
 ##### 7. Escriba un programa que calcule el consumo de gasolina. Pedirá la distancia recorrida (en kms), los litros de gasolina consumidos y los litros que quedan en el depósito. El programa debe informar el consumo en km/litro, los litros/100 km y cuantos kilómetros de autonomía le restan con ese nivel de consumo. Utilice nombres de variables significativos.
+
+[Ejercicio 7 Resuelto](https://github.com/JArandaIzquierdo/FundamentosDeProgramacion/blob/master/Ejercicios/EjerciciosTema1/Ejercicio7.cpp)
+
+##### 8. Las ganancias de un determinado producto se reparten entre el diseñador y los tres fabricantes del mismo. Diseñar un programa que pida la ganancia total de la empresa (los ingresos realizados con la venta del producto) y diga cuánto cobran cada uno de ellos, sabiendo que el diseñador cobra el doble que cada uno de los fabricantes. El dato de entrada será la ganancia total a repartir. Utilizad el tipo double para todas las variables.
+
+[Ejercicio 8 Resuelto](https://github.com/JArandaIzquierdo/FundamentosDeProgramacion/blob/master/Ejercicios/EjerciciosTema1/Ejercicio8.cpp)
+
+
+##### 9. Queremos realizar un programa para intercambiar los contenidos de dos variables enteras. El programa leerá desde teclado dos variables edad_Pedro y edad_Juan e intercambiará sus valores. A continuación, mostrará en pantalla las variables ya modificadas. El siguiente código no funciona correctamente.
+      edad_Pedro = edad_Juan;
+      edad_Juan = edad_Pedro;
+##### ¿Por qué no funciona? Buscad una solución.
+
+[Ejercicio 9 Resuelto](https://github.com/JArandaIzquierdo/FundamentosDeProgramacion/blob/master/Ejercicios/EjerciciosTema1/Ejercicio9.cpp)
+
+##### 10. Escribid un algoritmo para calcular la media aritmética muestral y la desviación es- tándar (o típica) muestral de las alturas de tres personas (n=3). Éstos valores serán reales (de tipo double). La fórmula general para un valor arbitrario de n es:
+￼￼￼￼￼X representa la media aritmética y σ la desviación estándar. Para resolver este pro- blema es necesario usar la función sqrt (raíz cuadrada) que se encuentra en la bi- blioteca cmath.
+Estas medidas se utilizan mucho en Estadística para tener una idea de la distri- bución de datos. La media (mean en inglés) nos da una idea del valor central y
