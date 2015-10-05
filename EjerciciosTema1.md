@@ -89,3 +89,16 @@ x = 1 + 1/2 + 1/3 + 1/4
 [Ejercicio 11 Resuelto](https://github.com/JArandaIzquierdo/FundamentosDeProgramacion/blob/master/Ejercicios/EjerciciosTema1/Ejercicio11.cpp)
 
 #####12. Realizar un programa que lea los coeficientes reales μ y σ de una función gaussiana (ver definición abajo). A continuación el programa leerá un valor de abscisa x y se imprimirá el valor que toma la función en x
+
+![](https://github.com/JArandaIzquierdo/FundamentosDeProgramacion/blob/master/images/Captura%20de%20pantalla%202015-10-04%20a%20las%2021.11.59.png)
+
+##### La función gaussiana es muy importante en Estadística. Es una función real de va- riable real en la que el parámetro μ se conoce como esperanza o media y σ como desviación típica (mean y standard deviation en inglés). En la gráfica de abajo pueden verse algunos ejemplos de esta función con distintos parámetros.
+
+![](https://github.com/JArandaIzquierdo/FundamentosDeProgramacion/blob/master/images/Captura%20de%20pantalla%202015-10-05%20a%20las%2022.42.49.png)
+
+##### Para definir la función matemática e usad la función exp de la biblioteca cmath. En la misma biblioteca está la función sqrt para calcular la raíz cuadrada. Para elevar un número al cuadrado se puede usar la función pow, que se utiliza en la siguiente forma:
+
+		pow(base, exponente)
+        
+##### Comprobad que los resultados son correctos, usando cualquiera de las calculadoras disponibles en:
+http://danielsoper.com/statcalc3/calc.aspx?id=54 https://www.easycalculation.com/statistics/normal-pdf.php
