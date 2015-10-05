@@ -78,3 +78,14 @@ x = 1 + 1/2 + 1/3 + 1/4
 #####Estas medidas se utilizan mucho en Estadística para tener una idea de la distri- bución de datos. La media (mean en inglés) nos da una idea del valor central y la desviación típica (standard deviation) nos da una idea de la dispersión de és- tos. Ejecutad el programa con varios valores y comprobad que el resultado es co- rrecto utilizando una calculadora científica o cualquier calculadora online como por ejemplo la disponible en http://www.disfrutalasmatematicas.com/datos/ desviacion-estandar-calculadora.html
 
 [Ejercicio 10 Resuelto](https://github.com/JArandaIzquierdo/FundamentosDeProgramacion/blob/master/Ejercicios/EjerciciosTema1/Ejercicio10.cpp)
+
+##### 11. Cread un programa que nos pida la longitud del radio, calcule el área del círculo y la longitud de la circunferencia correspondientes, y nos muestre los resultados en pantalla. Recordad que:
+		long. circunf = 2πr             área circ = πr2
+##### Usad el literal 3.1416 a lo largo del código, cuando se necesite multiplicar por π.
+##### Una vez hecho el programa, cambiad las apariciones de 3.1416 por 3.14159, re- compilad y ejecutad (La parte de compilación y ejecución se realizará cuando se vea en clase de prácticas el entorno de programación).
+##### ¿No hubiese sido mejor declarar un dato constante PI con un valor igual a 3.14159, y usar dicho dato donde fuese necesario? Hacedlo tal y como se explica en las trans- parencias de los apuntes de clase.
+##### Cambiad ahora el valor de la constante PI por el de 3.1415927, recompilad y ejecu- tad.
+
+[Ejercicio 11 Resuelto](https://github.com/JArandaIzquierdo/FundamentosDeProgramacion/blob/master/Ejercicios/EjerciciosTema1/Ejercicio11.cpp)
+
+#####12. Realizar un programa que lea los coeficientes reales μ y σ de una función gaussiana (ver definición abajo). A continuación el programa leerá un valor de abscisa x y se imprimirá el valor que toma la función en x
