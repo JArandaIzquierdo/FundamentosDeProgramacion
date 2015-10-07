@@ -92,7 +92,7 @@ x = 1 + 1/2 + 1/3 + 1/4
 
 ![](https://github.com/JArandaIzquierdo/FundamentosDeProgramacion/blob/master/images/Captura%20de%20pantalla%202015-10-04%20a%20las%2021.11.59.png)
 
-##### La función gaussiana es muy importante en Estadística. Es una función real de va- riable real en la que el parámetro μ se conoce como esperanza o media y σ como desviación típica (mean y standard deviation en inglés). En la gráfica de abajo pueden verse algunos ejemplos de esta función con distintos parámetros.
+##### La función gaussiana es muy importante en Estadística. Es una función real de variable real en la que el parámetro μ se conoce como esperanza o media y σ como desviación típica (mean y standard deviation en inglés). En la gráfica de abajo pueden verse algunos ejemplos de esta función con distintos parámetros.
 
 ![](https://github.com/JArandaIzquierdo/FundamentosDeProgramacion/blob/master/images/Captura%20de%20pantalla%202015-10-05%20a%20las%2022.42.49.png)
 
@@ -101,4 +101,13 @@ x = 1 + 1/2 + 1/3 + 1/4
 		pow(base, exponente)
         
 ##### Comprobad que los resultados son correctos, usando cualquiera de las calculadoras disponibles en:
-http://danielsoper.com/statcalc3/calc.aspx?id=54 https://www.easycalculation.com/statistics/normal-pdf.php
+http://danielsoper.com/statcalc3/calc.aspx?id=54
+https://www.easycalculation.com/statistics/normal-pdf.php
+
+[Ejercicio 12 Resuelto](https://github.com/JArandaIzquierdo/FundamentosDeProgramacion/blob/master/Ejercicios/EjerciciosTema1/Ejercicio12.cpp)
+
+##### 16. Calcular el número de segundos que hay entre dos instantes del mismo día.
+##### Cada instante se caracteriza por la hora (entre 0 y 23), minuto (entre 0 y 59) y segundo (entre 0 y 59).
+##### El programa leerá la hora, minuto y segundo del instante inicial, y la hora, minuto y segundo del instante final (supondremos que los valores introducidos son correctos) y mostrará el número de segundos entre ambos instantes.
+
+[Ejercicio 16 Resuelto](https://github.com/JArandaIzquierdo/FundamentosDeProgramacion/blob/master/Ejercicios/EjerciciosTema1/Ejercicio16.cpp)
