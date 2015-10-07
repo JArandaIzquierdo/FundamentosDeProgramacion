@@ -21,6 +21,4 @@ int main(){
   total = totalSegundosFin - totalSegundosIni;
 
   cout<< " Los segundos de diferencia entre ambos instantes es: "<< total << endl;
-
-
 }
