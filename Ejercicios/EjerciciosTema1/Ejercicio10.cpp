@@ -1,3 +1,7 @@
+/* Ejercicio 10.
+    Calculo de la media aritmetica y la desviacion tipica.
+*/
+
 #include <iostream>
 #include <cmath>
 using namespace std;

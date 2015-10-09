@@ -1,5 +1,10 @@
-/* Seria imposible hacer este ejercicio sin una variable auxiliar, para
-ello he utilizado variableDeCambio*/
+/*Ejercicio 9.
+
+    Programa para intercambiar el contenido de dos variables.
+
+    
+    Seria imposible hacer este ejercicio sin una variable auxiliar, para
+    ello he utilizado variableDeCambio*/
 
 #include <iostream>
 using namespace std;

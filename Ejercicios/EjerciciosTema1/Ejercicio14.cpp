@@ -1,3 +1,8 @@
+/* Ejercicio 14
+    Separar por espacios un valor entero (siempre de tres digitos)
+    pedido al usuario
+*/
+
 #include <iostream>
 using namespace std;
 int main(){

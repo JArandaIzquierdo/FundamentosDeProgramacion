@@ -1,3 +1,7 @@
+/* Ejercicio 15.
+    Pasar unas horas, minutos y segundos dados a su formato correcto.
+*/
+
 #include <iostream>
 using namespace std;
 int main(){

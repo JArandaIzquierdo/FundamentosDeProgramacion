@@ -1,23 +1,36 @@
+/* Ejercicio 5.
+    Muestre la poblacion dentro de dos años considerando la poblacion
+    actual sabiendo los nacimientos, muertes y emigraciones*/
+
 #include <iostream>
 using namespace std;
 int main(){
 
-  const int POBLACIONACTUAL= 1375570814;
-  double segundosDosAnios=0;
-  double nacimientos=0, muertes=0, emigrantes=0, poblacionEnDosAnios=0;
 
-  segundosDosAnios = 2*365*24*60*60;
-  cout<< "Existen " << segundosDosAnios << " segundos en 2 años" << endl;
+  int poblacionActual, anios ;
+  double segundosAnios;
+  double nacimientos, muertes, emigrantes, poblacionEnAnios;
+  const double NACIM = 1.87, MUERT= 3.27, EMIGR= 71.9;
 
-  nacimientos = segundosDosAnios / 1.87;
-  muertes = segundosDosAnios / 3.27;
-  emigrantes = segundosDosAnios / 71.9;
+  cout<< "Introduzca la poblacion actual: "<< endl;
+  cin>> poblacionActual;
 
-  poblacionEnDosAnios = POBLACIONACTUAL + nacimientos - muertes - emigrantes;
+  cout<< "Introduzca los años a transcurrir: "<< endl;
+  cin>> anios;
+
+
+  segundosAnios = anios * 365.25*24*60*60;
+  cout<< "Existen " << segundosAnios << " segundos en "<< anios << " años" << endl;
+
+  nacimientos = segundosAnios / NACIM;
+  muertes = segundosAnios / MUERT;
+  emigrantes = segundosAnios / EMIGR;
+
+  poblacionEnAnios = poblacionActual + nacimientos - muertes - emigrantes;
 
   cout<< "El numero de nacimientos sera de: "<< nacimientos << endl;
   cout<< "El numero de muertes sera de: "<< muertes << endl;
   cout<< "El numero de emigrantes sera de: "<< emigrantes << endl;
 
-  cout<< "La poblacion en dos años sera de: "<< poblacionEnDosAnios << endl;
+  cout<< "La poblacion en "<< anios <<" años sera de: "<< poblacionEnAnios << endl;
 }
