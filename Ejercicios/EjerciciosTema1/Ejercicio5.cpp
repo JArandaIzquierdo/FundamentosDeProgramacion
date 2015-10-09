@@ -2,7 +2,7 @@
 using namespace std;
 int main(){
 
-  const int poblacionActual= 1375570814;
+  const int POBLACIONACTUAL= 1375570814;
   double segundosDosAnios=0;
   double nacimientos=0, muertes=0, emigrantes=0, poblacionEnDosAnios=0;
 
@@ -13,7 +13,7 @@ int main(){
   muertes = segundosDosAnios / 3.27;
   emigrantes = segundosDosAnios / 71.9;
 
-  poblacionEnDosAnios = poblacionActual + nacimientos - muertes - emigrantes;
+  poblacionEnDosAnios = POBLACIONACTUAL + nacimientos - muertes - emigrantes;
 
   cout<< "El numero de nacimientos sera de: "<< nacimientos << endl;
   cout<< "El numero de muertes sera de: "<< muertes << endl;
