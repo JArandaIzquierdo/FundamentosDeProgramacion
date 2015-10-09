@@ -10,14 +10,10 @@ int main(){
   double totalSegundosIni=0, totalSegundosFin=0, total=0;
 
   cout<< "Introduzca la hora, minutos y segundos de inicio: ";
-  cin>> hora_ini;
-  cin>> minutos_ini;
-  cin>> segundos_ini;
+  cin>> hora_ini >> minutos_ini >> segundos_ini;
 
   cout<< "Introduzca la hora, minutos y segundos finales: ";
-  cin>> hora_fin;
-  cin>> minutos_fin;
-  cin>> segundos_fin;
+  cin>> hora_fin >> minutos_fin >> segundos_fin;
 
   totalSegundosIni = (((((hora_ini * 60) + minutos_ini)) * 60) + segundos_ini);
   totalSegundosFin = (((((hora_fin * 60) + minutos_fin)) * 60) + segundos_fin);
