@@ -1,3 +1,7 @@
+/* Ejercicio 16.
+    Calcular el numero de segundos que existen entre dos instantes del mismo dia
+*/
+
 #include <iostream>
 using namespace std;
 int main(){
