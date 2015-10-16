@@ -281,21 +281,23 @@ FOTOOOOO
 
 #####30. Declarar las variables necesarias y traducir las siguientes fórmulas a expresiones válidas del lenguaje C++.
 
-FOOTTOOOOO
+![](https://github.com/JArandaIzquierdo/FundamentosDeProgramacion/blob/master/images/Captura%20de%20pantalla%202015-10-16%20a%20las%2016.48.01.png)
 
 
 [Ejercicio 30 Resuelto](https://github.com/JArandaIzquierdo/FundamentosDeProgramacion/blob/master/Ejercicios/EjerciciosTema1/Ejercicio30.cpp)
 
 #####31. Dos locomotoras parten de puntos distintos avanzando en dirección contraria sobre la misma vía. Se pide redactar un programa para conocer las distancias que habrán recorrido ambas locomotoras antes de que choquen teniendo en cuenta que la primera locomotora viaja a una velocidad constante V1, que la segunda viaja a una velocidad constante V2, la fórmula que relaciona velocidad, espacio y tiempo (s = v t) y que el momento en que se producirá el choque viene dado por la fórmula:
 
-FOTOOOOO
+![](https://github.com/JArandaIzquierdo/FundamentosDeProgramacion/blob/master/images/Captura%20de%20pantalla%202015-10-16%20a%20las%2016.53.38.png)
 
 #####dónde D es la distancia que separa los puntos iniciales de partida. Los datos de entrada al programa serán D, V1 y V2.
 
 [Ejercicio 31 Resuelto](https://github.com/JArandaIzquierdo/FundamentosDeProgramacion/blob/master/Ejercicios/EjerciciosTema1/Ejercicio31.cpp)
 
 #####32. El área A de un triángulo se puede calcular a partir del valor de dos de sus lados, a y￼￼￼￼￼￼b, y del ángulo θ que éstos forman entre sí con la fórmula A = 1/2 a*b *sin (θ). Construid un programa que pida al usuario el valor de los dos lados (en centímetros), el ángulo que éstos forman (en grados), y muestre el valor del área.
-FOTOOOOO
+
+![](https://github.com/JArandaIzquierdo/FundamentosDeProgramacion/blob/master/images/Captura%20de%20pantalla%202015-10-16%20a%20las%2017.02.58.png)
+
 #####Tened en cuenta que el argumento de la función sin va en radianes por lo que habrá que transformar los grados del ángulo en radianes (recordad que 360 grados son 2Π radianes).
 
 [Ejercicio 32 Resuelto](https://github.com/JArandaIzquierdo/FundamentosDeProgramacion/blob/master/Ejercicios/EjerciciosTema1/Ejercicio32.cpp)
