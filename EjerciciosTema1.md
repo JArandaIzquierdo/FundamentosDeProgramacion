@@ -207,6 +207,7 @@ b)
     grande = chico1 * chico2;
     ```
 c)
+
 ```c++
 	double resultado, real1, real2;
     real1 = 123.1;
@@ -229,6 +230,7 @@ e)
     otro_real = otro_real - real;
     ```
 f)
+
 ```c++
 	double real, otro_real; 
     real = 1e+300;
@@ -274,7 +276,9 @@ g)
 
 
 #####29. Cread un programa que lea las coordenadas de dos puntos P1 = (x1, y1) y P2 = (x2, y2) y calcule la distancia euclídea entre ellos:
-FOTOOOOO
+
+![](https://github.com/JArandaIzquierdo/FundamentosDeProgramacion/blob/master/images/Captura%20de%20pantalla%202015-10-16%20a%20las%2016.48.01.png)
+
 #####Para calcular el cuadrado no puede usar ninguna función de la biblioteca cmath.
 
 [Ejercicio 29 Resuelto](https://github.com/JArandaIzquierdo/FundamentosDeProgramacion/blob/master/Ejercicios/EjerciciosTema1/Ejercicio29.cpp)
