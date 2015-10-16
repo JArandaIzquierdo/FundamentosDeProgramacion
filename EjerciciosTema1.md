@@ -285,14 +285,14 @@ g)
 
 #####30. Declarar las variables necesarias y traducir las siguientes fórmulas a expresiones válidas del lenguaje C++.
 
-![](https://github.com/JArandaIzquierdo/FundamentosDeProgramacion/blob/master/images/Captura%20de%20pantalla%202015-10-16%20a%20las%2016.48.01.png)
+![](https://github.com/JArandaIzquierdo/FundamentosDeProgramacion/blob/master/images/Captura%20de%20pantalla%202015-10-16%20a%20las%2016.51.35.png)
 
 
 [Ejercicio 30 Resuelto](https://github.com/JArandaIzquierdo/FundamentosDeProgramacion/blob/master/Ejercicios/EjerciciosTema1/Ejercicio30.cpp)
 
 #####31. Dos locomotoras parten de puntos distintos avanzando en dirección contraria sobre la misma vía. Se pide redactar un programa para conocer las distancias que habrán recorrido ambas locomotoras antes de que choquen teniendo en cuenta que la primera locomotora viaja a una velocidad constante V1, que la segunda viaja a una velocidad constante V2, la fórmula que relaciona velocidad, espacio y tiempo (s = v t) y que el momento en que se producirá el choque viene dado por la fórmula:
 
-![](https://github.com/JArandaIzquierdo/FundamentosDeProgramacion/blob/master/images/Captura%20de%20pantalla%202015-10-16%20a%20las%2016.51.35.png)
+![](https://github.com/JArandaIzquierdo/FundamentosDeProgramacion/blob/master/images/Captura%20de%20pantalla%202015-10-16%20a%20las%2016.53.38.png)
 
 #####dónde D es la distancia que separa los puntos iniciales de partida. Los datos de entrada al programa serán D, V1 y V2.
 
