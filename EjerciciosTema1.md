@@ -106,10 +106,18 @@ https://www.easycalculation.com/statistics/normal-pdf.php
 
 [Ejercicio 12 Resuelto](https://github.com/JArandaIzquierdo/FundamentosDeProgramacion/blob/master/Ejercicios/EjerciciosTema1/Ejercicio12.cpp)
 
+##### 13. En atletismo se expresa la rapidez de un atleta en términos de ritmo (minutos y segundos por kilómetro) más que en unidades de velocidad (kilómetros por hora).
+##### Escribid dos programas para convertir entre estas dos medidas:
+a) El primero leerá el ritmo (minutos y segundos, por separado) y mostrará la velocidad (kilómetros por hora).
+b) El segundo leerá la velocidad (kilómetros por hora) y mostrará el ritmo (minutos y segundos).
+
+[Ejercicio 13 Resuelto](https://github.com/JArandaIzquierdo/FundamentosDeProgramacion/blob/master/Ejercicios/EjerciciosTema1/Ejercicio13.cpp)
+
 ##### 14. Escribir un programa que lea un valor entero. Supondremos que el usuario introduce siempre un entero de tres dígitos, como por ejemplo 351. Escribid en pantalla los dígitos separados por tres espacios en blanco. Con el valor anterior la salida sería:
 		3  5  1
         
 [Ejercicio 14 Resuelto](https://github.com/JArandaIzquierdo/FundamentosDeProgramacion/blob/master/Ejercicios/EjerciciosTema1/Ejercicio14.cpp)
+
 
 
 ##### 15. Leed desde teclado tres variables correspondientes a un número de horas, minutos y segundos, respectivamente. Diseñar un algoritmo que calcule las horas, minutos y segundos dentro de su rango correspondiente. Por ejemplo, dadas 10 horas, 119 minutos y 280 segundos, debería dar como resultado 12 horas, 3 minutos y 40 segundos. El programa no calculará meses, años, etc sino que se quedará en los días.
@@ -120,3 +128,180 @@ https://www.easycalculation.com/statistics/normal-pdf.php
 ##### 16. Calcular el número de segundos que hay entre dos instantes del mismo día. Cada instante se caracteriza por la hora (entre 0 y 23), minuto (entre 0 y 59) y segundo (entre 0 y 59). El programa leerá la hora, minuto y segundo del instante inicial, y la hora, minuto y segundo del instante final (supondremos que los valores introducidos son correctos) y mostrará el número de segundos entre ambos instantes.
 
 [Ejercicio 16 Resuelto](https://github.com/JArandaIzquierdo/FundamentosDeProgramacion/blob/master/Ejercicios/EjerciciosTema1/Ejercicio16.cpp)
+
+##### 17. Realizar un programa que declare las variables x, y y z, les asigne los valores 10, 20 y 30 e intercambien entre sí sus valores de forma que el valor de x pasa a y, el de y pasa a z y el valor de z pasa a x (se pueden declarar variables auxiliares aunque se pide que se use el menor número posible).
+
+[Ejercicio 17 Resuelto](https://github.com/JArandaIzquierdo/FundamentosDeProgramacion/blob/master/Ejercicios/EjerciciosTema1/Ejercicio17.cpp)
+
+##### 18. Realizad el ejercicio del reparto de la ganancia de un producto, pero cambiando el tipo de dato de la ganancia total a int (el resto de variables siguen siendo double).
+
+[Ejercicio 18 Resuelto](https://github.com/JArandaIzquierdo/FundamentosDeProgramacion/blob/master/Ejercicios/EjerciciosTema1/Ejercicio18.cpp)
+
+
+##### 19. Realizad el ejercicio del cálculo de la desviación típica, pero cambiando el tipo de dato de las variables xi a int.
+##### Nota: Para no tener problemas en la llamada a la función pow (en el caso de que se haya utilizado para implementar el cuadrado de las diferencias de los datos con la media), obligamos a que la base de la potencia sea un real multiplicando por 1.0, por lo que la llamada quedaría en la forma pow(basex1.0, exponente).
+
+[Ejercicio 19 Resuelto](https://github.com/JArandaIzquierdo/FundamentosDeProgramacion/blob/master/Ejercicios/EjerciciosTema1/Ejercicio19.cpp)
+
+##### 20. Diseñar un programa que lea un carácter (supondremos que el usuario introduce una mayúscula), lo pase a minúscula y lo imprima en pantalla. Hacedlo sin usar las funciones toupper ni tolower de la biblioteca cctype. Para ello, debe considerarse la equivalencia en C++ entre los tipos enteros y caracteres.
+
+[Ejercicio 20 Resuelto](https://github.com/JArandaIzquierdo/FundamentosDeProgramacion/blob/master/Ejercicios/EjerciciosTema1/Ejercicio20.cpp)
+
+
+##### 21. Supongamos el siguiente código:
+```c++
+      nt entero;
+      char caracter;
+      caracter = '7';
+      entero = caracter;
+
+```
+#####La variable entero almacenará el valor 55 (el orden en la tabla ASCII del carácter '7'). Queremos construir una expresión que devuelva el entero 7, para asignarlo a la variable entero. 
+######Formalmente:
+#####Supongamos una variable car de tipo carácter que contiene un valor entre '0' y '9'. Construid un programa que obtenga el correspondiente valor entero, se lo asigne a una variable de tipo int llamada entero y lo imprima en pantalla. Por ejemplo, si la variable car contiene '7' queremos asignarle a entero el valor numérico 7.
+#####Nota. La comilla simple para representar un literal de carácter es la que hay en el teclado del ordenador debajo de la interrogación ?.
+
+[Ejercicio 21 Resuelto](https://github.com/JArandaIzquierdo/FundamentosDeProgramacion/blob/master/Ejercicios/EjerciciosTema1/Ejercicio21.cpp)
+
+
+#####22. Dadas las variables count = 0, limit = 10, x = 2, y = 7, calcule el valor de las siguientes expresiones lógicas
+```c++
+	count == 0 && limit < 20
+    limit > 20 || count < 5
+    !(count == 12)
+    count == 1 && x < y
+    !( (count < 10 || x < y) && count >= 0 )
+    (count > 5 && y == 7) || (count <= 0 && limit == 5*x)
+    !( limit != 10 && z > y )
+```
+
+[Ejercicio 22 Resuelto](https://github.com/JArandaIzquierdo/FundamentosDeProgramacion/blob/master/Ejercicios/EjerciciosTema1/Ejercicio22.cpp)
+
+#####23. Razonar sobre la falsedad o no de las siguientes afirmaciones: 
+	a) 'c' es una expresión de caracteres.
+	b) 4<3 es una expresión numérica.
+    c) (4+3)<5 es una expresión numérica.
+	d) cout << a; da como salida la escritura en pantalla de una a. 
+    e) ¿Qué realiza cin >> cte, siendo cte una constante entera?
+    
+    
+[Ejercicio 23 Resuelto](https://github.com/JArandaIzquierdo/FundamentosDeProgramacion/blob/master/Ejercicios/EjerciciosTema1/Ejercicio23.cpp)
+    
+#####24. Indicar si se produce un problema de precisión o de desbordamiento en los siguientes ejemplos indicando cuál sería el resultado final de las operaciones.
+#####Nota. Si se desea ver el contenido de una variable real con cout, es necesario que antes de hacerlo, se establezca el número de decima- les que se quieren mostrar en pantalla. Hacedlo escribiendo la sentencia cout.precision(numero_digitos); en cualquier sitio del programa antes de la ejecución de cout << real1 << "," << real2;. Hay que destacar que al trabajar con reales siempre debemos asumir representaciones aproximadas por lo que no podemos pensar que el anterior valor numero_digitos esté indicando un número de decimales con representación exacta.
+
+a)
+```c++
+	int chico, chico1, chico2;
+    chico1 = 123456789;
+	chico2 = 123456780;
+    chico = chico1 * chico2;
+```
+
+b)
+```c++
+	long grande;
+	int chico1, chico2;
+    chico1 = 123456789;
+    chico2 = 123456780;
+    grande = chico1 * chico2;
+    ```
+c)
+```c++
+	double resultado, real1, real2;
+    real1 = 123.1;
+    real2 = 124.2;
+    resultado = real1 * real2;
+```
+d)
+```c++    
+	double resultado, real1, real2;
+    real1 = 123456789.1;
+	real2 = 123456789.2;
+    resultado = real1 * real2;
+```
+e)
+```c++
+    
+	double real, otro_real;
+    real = 2e34;
+    otro_real = real + 1;
+    otro_real = otro_real - real;
+    ```
+f)
+```c++
+	double real, otro_real; 
+    real = 1e+300;
+    otro_real = 1e+200;
+    otro_real = otro_real * real;
+```
+g)
+```c++
+	float chico; 
+	double grande;
+    grande = 2e+150;
+    chico = grande;
+```
+
+[Ejercicio 24 Resuelto](https://github.com/JArandaIzquierdo/FundamentosDeProgramacion/blob/master/Ejercicios/EjerciciosTema1/Ejercicio24.cpp)
+
+#####25. Escribid una expresión lógica que sea verdadera si una variable de tipo carácter llamada letra es una letra minúscula y falso en otro caso.
+#####Escribid una expresión lógica que sea verdadera si una variable de tipo entero llamada edad es menor de 18 o mayor de 65.
+#####Escribid una expresión lógica que nos informe cuando un año es bisiesto. Los años bisiestos son aquellos que o bien son divisibles por 4 pero no por 100, o bien son divisibles por 400.
+#####Escribid un programa que lea las variables letra, edad y anio, calcule el valor de las expresiones lógicas anteriores e imprima el resultado. Tened en cuenta que cuando se imprime por pantalla (con cout) una expresión lógica que es true, se imprime 1. Si es false, se imprime un 0. En el tema 2 veremos la razón.
+
+[Ejercicio 25 Resuelto](https://github.com/JArandaIzquierdo/FundamentosDeProgramacion/blob/master/Ejercicios/EjerciciosTema1/Ejercicio25.cpp)
+
+#####26. Indique qué tipo de dato usaría para representar:
+	• Edad de una persona
+	• Producto interior bruto de un país. Consultad: http://es.wikipedia.org/wiki/Anexo:Pa%C3%ADses_por_PIB_ (nominal)
+	• La cualidad de que un número entero sea primo o no.
+	• Estado civil (casado, soltero, separado, viudo)
+	• Sexo de una persona (hombre o mujer exclusivamente)
+
+[Ejercicio 26 Resuelto](https://github.com/JArandaIzquierdo/FundamentosDeProgramacion/blob/master/Ejercicios/EjerciciosTema1/Ejercicio26.cpp)
+
+
+#####27. El precio final de un automóvil para un comprador es la suma total del costo del vehículo, del porcentaje de ganancia de dicho vendedor y del I.V.A. Diseñar un algoritmo para obtener el precio final de un automóvil sabiendo que el porcentaje de ganancia de este vendedor es del 20 % y el I.V.A. aplicable es del 16 %.
+
+[Ejercicio 27 Resuelto](https://github.com/JArandaIzquierdo/FundamentosDeProgramacion/blob/master/Ejercicios/EjerciciosTema1/Ejercicio27.cpp)
+
+#####28. Cread un programa que lea un valor de temperatura expresada en grados Celsius y la transforme en grados Fahrenheit. Para ello, debe considerar la fórmula siguiente:
+	Grados Fahrenheit = (Grados Celsius * 180 / 100) + 32
+#####Buscad en Internet el por qué de dicha fórmula.
+
+[Ejercicio 28 Resuelto](https://github.com/JArandaIzquierdo/FundamentosDeProgramacion/blob/master/Ejercicios/EjerciciosTema1/Ejercicio28.cpp)
+
+
+#####29. Cread un programa que lea las coordenadas de dos puntos P1 = (x1, y1) y P2 = (x2, y2) y calcule la distancia euclídea entre ellos:
+FOTOOOOO
+#####Para calcular el cuadrado no puede usar ninguna función de la biblioteca cmath.
+
+[Ejercicio 29 Resuelto](https://github.com/JArandaIzquierdo/FundamentosDeProgramacion/blob/master/Ejercicios/EjerciciosTema1/Ejercicio29.cpp)
+
+#####30. Declarar las variables necesarias y traducir las siguientes fórmulas a expresiones válidas del lenguaje C++.
+
+FOOTTOOOOO
+
+
+[Ejercicio 30 Resuelto](https://github.com/JArandaIzquierdo/FundamentosDeProgramacion/blob/master/Ejercicios/EjerciciosTema1/Ejercicio30.cpp)
+
+#####31. Dos locomotoras parten de puntos distintos avanzando en dirección contraria sobre la misma vía. Se pide redactar un programa para conocer las distancias que habrán recorrido ambas locomotoras antes de que choquen teniendo en cuenta que la primera locomotora viaja a una velocidad constante V1, que la segunda viaja a una velocidad constante V2, la fórmula que relaciona velocidad, espacio y tiempo (s = v t) y que el momento en que se producirá el choque viene dado por la fórmula:
+
+FOTOOOOO
+
+#####dónde D es la distancia que separa los puntos iniciales de partida. Los datos de entrada al programa serán D, V1 y V2.
+
+[Ejercicio 31 Resuelto](https://github.com/JArandaIzquierdo/FundamentosDeProgramacion/blob/master/Ejercicios/EjerciciosTema1/Ejercicio31.cpp)
+
+#####32. El área A de un triángulo se puede calcular a partir del valor de dos de sus lados, a y￼￼￼￼￼￼b, y del ángulo θ que éstos forman entre sí con la fórmula A = 1/2 a*b *sin (θ). Construid un programa que pida al usuario el valor de los dos lados (en centímetros), el ángulo que éstos forman (en grados), y muestre el valor del área.
+FOTOOOOO
+#####Tened en cuenta que el argumento de la función sin va en radianes por lo que habrá que transformar los grados del ángulo en radianes (recordad que 360 grados son 2Π radianes).
+
+[Ejercicio 32 Resuelto](https://github.com/JArandaIzquierdo/FundamentosDeProgramacion/blob/master/Ejercicios/EjerciciosTema1/Ejercicio32.cpp)
+
+#####33. Los compiladores utilizan siempre el mismo número de bits para representar un tipo de dato entero (este número puede variar de un compilador a otro). Por ejemplo, 32 bits para un int. Pero, realmente, no se necesitan 32 bits para representar el 6, por ejemplo, ya que bastarían 3 bits:
+	6 = 1∗22 +1∗21 +0∗20 ≡ 110
+#####Se pide crear un programa que lea un entero n, y calcule el mínimo número de dígitos que se necesitan para su representación. Para simplificar los cómputos, suponed que sólo queremos representar valores enteros positivos (incluido el cero). Consejo: se necesitará usar el logaritmo en base 2 y obtener la parte entera de un real (se obtiene tras el truncamiento que se produce al asignar un real a un entero).
+
+[Ejercicio 33 Resuelto](https://github.com/JArandaIzquierdo/FundamentosDeProgramacion/blob/master/Ejercicios/EjerciciosTema1/Ejercicio33.cpp)

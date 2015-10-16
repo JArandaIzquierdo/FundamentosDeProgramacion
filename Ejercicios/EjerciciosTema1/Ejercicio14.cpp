@@ -1,6 +1,10 @@
 /* Ejercicio 14
     Separar por espacios un valor entero (siempre de tres digitos)
     pedido al usuario
+
+    CORREGIR!! primero %10 para coger el primer numero de la derecha y
+    despues /10 para quitar ese digito del numero y repetir lo mismo hasta
+    terminar
 */
 
 #include <iostream>
