@@ -209,6 +209,7 @@ a)
 	chico2 = 123456780;
     chico = chico1 * chico2;
 ```
+	Si hay problema de desbordamiento.
 
 b)
 ```c++
@@ -218,6 +219,9 @@ b)
     chico2 = 123456780;
     grande = chico1 * chico2;
 ```
+
+	Si hay problema de desbordamiento
+
 c)
 
 ```c++
@@ -226,6 +230,9 @@ c)
     real2 = 124.2;
     resultado = real1 * real2;
 ```
+
+	Solo devuelve el resultado entero, sin los decimales.
+
 d)
 ```c++    
 	double resultado, real1, real2;
@@ -233,6 +240,9 @@ d)
 	real2 = 123456789.2;
     resultado = real1 * real2;
 ```
+
+	Tiene problemas de precision
+
 e)
 ```c++
     
@@ -249,6 +259,9 @@ f)
     otro_real = 1e+200;
     otro_real = otro_real * real;
 ```
+
+	Problema de desbordamiento, el resultado es inf.
+
 g)
 ```c++
 	float chico; 
@@ -257,7 +270,8 @@ g)
     chico = grande;
 ```
 
-[Ejercicio 24 Resuelto](https://github.com/JArandaIzquierdo/FundamentosDeProgramacion/blob/master/Ejercicios/EjerciciosTema1/Ejercicio24.cpp)
+	Problema de desbordamiento, el resultado es inf.
+
 
 #####25. Escribid una expresión lógica que sea verdadera si una variable de tipo carácter llamada letra es una letra minúscula y falso en otro caso.
 #####Escribid una expresión lógica que sea verdadera si una variable de tipo entero llamada edad es menor de 18 o mayor de 65.
