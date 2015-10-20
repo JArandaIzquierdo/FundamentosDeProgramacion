@@ -179,13 +179,20 @@ b) El segundo leerá la velocidad (kilómetros por hora) y mostrará el ritmo
 
 #####23. Razonar sobre la falsedad o no de las siguientes afirmaciones: 
 	a) 'c' es una expresión de caracteres.
+    	No, c es el equvalente en ASCII del caracter c en dicha tabla
+    
 	b) 4<3 es una expresión numérica.
+    	No, es una expresion booleana.
+    
     c) (4+3)<5 es una expresión numérica.
-	d) cout << a; da como salida la escritura en pantalla de una a. 
+    	No, es booleana.
+        
+	d) cout << a; da como salida la escritura en pantalla de una a.
+    	No, da como resultado el valor que tienes la variable a.
+        
     e) ¿Qué realiza cin >> cte, siendo cte una constante entera?
+    	No deja hacerlo ya que las constantes tiene que estar inicializadas, no permite inicializarlas desde un cin.
     
-    
-[Ejercicio 23 Resuelto](https://github.com/JArandaIzquierdo/FundamentosDeProgramacion/blob/master/Ejercicios/EjerciciosTema1/Ejercicio23.cpp)
     
 #####24. Indicar si se produce un problema de precisión o de desbordamiento en los siguientes ejemplos indicando cuál sería el resultado final de las operaciones.
 #####Nota. Si se desea ver el contenido de una variable real con cout, es necesario que antes de hacerlo, se establezca el número de decima- les que se quieren mostrar en pantalla. Hacedlo escribiendo la sentencia cout.precision(numero_digitos); en cualquier sitio del programa antes de la ejecución de cout << real1 << "," << real2;. Hay que destacar que al trabajar con reales siempre debemos asumir representaciones aproximadas por lo que no podemos pensar que el anterior valor numero_digitos esté indicando un número de decimales con representación exacta.
