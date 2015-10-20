@@ -166,16 +166,21 @@ b) El segundo leerá la velocidad (kilómetros por hora) y mostrará el ritmo
 
 #####22. Dadas las variables count = 0, limit = 10, x = 2, y = 7, calcule el valor de las siguientes expresiones lógicas
 ```c++
-	count == 0 && limit < 20
-    limit > 20 || count < 5
-    !(count == 12)
-    count == 1 && x < y
-    !( (count < 10 || x < y) && count >= 0 )
-    (count > 5 && y == 7) || (count <= 0 && limit == 5*x)
-    !( limit != 10 && z > y )
+	count == 0 && limit < 20  ---> True
+    
+    limit > 20 || count < 5  ---> True
+    
+    !(count == 12)  ---> True
+    
+    count == 1 && x < y ---> False
+    
+    !( (count < 10 || x < y) && count >= 0 )  ---> False
+    
+    (count > 5 && y == 7) || (count <= 0 && limit == 5*x)   ---> True
+    
+    !( limit != 10 && z > y )  ---> True
 ```
 
-[Ejercicio 22 Resuelto](https://github.com/JArandaIzquierdo/FundamentosDeProgramacion/blob/master/Ejercicios/EjerciciosTema1/Ejercicio22.cpp)
 
 #####23. Razonar sobre la falsedad o no de las siguientes afirmaciones: 
 	a) 'c' es una expresión de caracteres.
