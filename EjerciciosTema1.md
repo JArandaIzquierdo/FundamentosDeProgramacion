@@ -284,13 +284,12 @@ g)
 [Ejercicio 25 Resuelto](https://github.com/JArandaIzquierdo/FundamentosDeProgramacion/blob/master/Ejercicios/EjerciciosTema1/Ejercicio25.cpp)
 
 #####26. Indique qué tipo de dato usaría para representar:
-	• Edad de una persona
-	• Producto interior bruto de un país. Consultad: http://es.wikipedia.org/wiki/Anexo:Pa%C3%ADses_por_PIB_ (nominal)
-	• La cualidad de que un número entero sea primo o no.
-	• Estado civil (casado, soltero, separado, viudo)
-	• Sexo de una persona (hombre o mujer exclusivamente)
+	• Edad de una persona  --> int
+	• Producto interior bruto de un país  --> int
+	• La cualidad de que un número entero sea primo o no  --> bool
+	• Estado civil (casado, soltero, separado, viudo) --> char
+	• Sexo de una persona (hombre o mujer exclusivamente) --> char
 
-[Ejercicio 26 Resuelto](https://github.com/JArandaIzquierdo/FundamentosDeProgramacion/blob/master/Ejercicios/EjerciciosTema1/Ejercicio26.cpp)
 
 
 #####27. El precio final de un automóvil para un comprador es la suma total del costo del vehículo, del porcentaje de ganancia de dicho vendedor y del I.V.A. Diseñar un algoritmo para obtener el precio final de un automóvil sabiendo que el porcentaje de ganancia de este vendedor es del 20 % y el I.V.A. aplicable es del 16 %.
