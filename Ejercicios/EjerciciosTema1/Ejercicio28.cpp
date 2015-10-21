@@ -2,10 +2,12 @@
 using namespace std;
 int main (){
 
-  double x1, y1, x2, y2;
+  double celsius, fahrenheit;
 
-  cout<< "Introduzca las coordenades de P1: " << endl << " X1: ";
-  cin >> x1;
-  cout<< " Y1: " << endl;
-  cin >> y1;
+  cout << "Introduzca la temperatura en grados Celsius: ";
+  cin >> celsius;
+
+  fahrenheit = (celsius * 180 / 100) + 32;
+
+  cout << "La temperatura en grados Fahrenheit es: " << fahrenheit << endl;
 }
