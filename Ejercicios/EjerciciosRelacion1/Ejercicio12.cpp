@@ -3,7 +3,7 @@
 using namespace std;
 int main (){
 
-  double media=0, desviacion=0, gaussiana=0, xAbscisa=0;
+  double media, desviacion, gaussiana=0, xAbscisa;
   const double PI = 3.1415927, E = 2.7182;
 
   cout<< "Introduzca los valores de la media, desviacion y abscisa: "<<endl;

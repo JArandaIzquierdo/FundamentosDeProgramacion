@@ -2,7 +2,8 @@
 using namespace std;
 int main(){
 
-  double gananciaTotal=0, gananciaParcial=0, diseniador=0, fabricantes=0;
+  double diseniador=0, fabricantes=0;
+  int gananciaTotal, gananciaParcial=0;
 
   cout<< "Introduzca la ganancia del producto: ";
   cin>> gananciaTotal;

@@ -7,7 +7,7 @@
 using namespace std;
 int main(){
 
-  double persona1=0, persona2=0, persona3=0, media=0, desviacion=0;
+  double persona1, persona2, persona3, media=0, desviacion=0;
 
   cout<<  "Introduzca la altura de la primera persona: ";
   cin>> persona1;

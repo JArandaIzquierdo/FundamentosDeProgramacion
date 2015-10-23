@@ -11,7 +11,7 @@
 using namespace std;
 int main(){
 
-  int digitoInicial=0, primerDigito=0, segundoDigito=0, tercerDigito=0;
+  int digitoInicial, primerDigito=0, segundoDigito=0, tercerDigito=0;
 
   cout<< "Escriba un digito de tres cifras: ";
   cin>> digitoInicial;

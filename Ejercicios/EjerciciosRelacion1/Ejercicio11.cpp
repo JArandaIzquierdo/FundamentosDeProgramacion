@@ -2,7 +2,7 @@
 using namespace std;
 int main (){
 
-  double radio=0, areaCirculo=0, longitudCircunferencia=0;
+  double radio, areaCirculo=0, longitudCircunferencia=0;
   const double PI = 3.1415927;
 
   cout<< " Introduzca el radio de una circunferencia: ";

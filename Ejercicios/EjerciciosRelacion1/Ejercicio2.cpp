@@ -1,7 +1,7 @@
 #include <iostream>
 using namespace std;
 int main(){
-	double voltaje=0, intensidad=0, resistencia=0;
+	double voltaje, intensidad, resistencia;
 
     cout<< "Introduzca el valor de la intensidad: "<< endl;;
     cin>> intensidad;

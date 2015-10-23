@@ -2,7 +2,7 @@
 using namespace std;
 int main(){
 
-  double millas=0,kilometros=0;
+  double millas,kilometros;
 
   cout<< " Introduzca la longitud en millas a convertir en kilometros: "<< endl;
   cin>> millas;

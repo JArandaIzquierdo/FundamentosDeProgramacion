@@ -2,7 +2,7 @@
 
     Programa para intercambiar el contenido de dos variables.
 
-    
+
     Seria imposible hacer este ejercicio sin una variable auxiliar, para
     ello he utilizado variableDeCambio*/
 
@@ -10,7 +10,7 @@
 using namespace std;
 int main (){
 
-  int edad_Pedro=0, edad_Juan=0, variableDeCambio=0;
+  int edad_Pedro, edad_Juan, variableDeCambio=0;
 
   cout<<"Introduzca la edad de Pedro: ";
   cin>> edad_Pedro;

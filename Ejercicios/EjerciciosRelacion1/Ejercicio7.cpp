@@ -2,7 +2,7 @@
 using namespace std;
 int main(){
 
-  double distanciaRecorrida=0, gasolinaConsumida=0, gasolinaEnDeposito=0,
+  double distanciaRecorrida, gasolinaConsumida, gasolinaEnDeposito,
   consumo=0, litrosALos100=0, kmRestantes=0;
 
   cout << "Insete la distancia recorrida en Km: ";

@@ -2,7 +2,7 @@
 using namespace std;
 int main(){
 
-  double cantidadCapital=0, interes=0, capitalFinal=0;
+  double cantidadCapital, interes, capitalFinal=0;
 
   cout<< "Introduzca el capital a ingresar entre 0 y 100" << endl;
   cin>> cantidadCapital;

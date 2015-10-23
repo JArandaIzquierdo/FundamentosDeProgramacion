@@ -2,7 +2,7 @@
 using namespace std;
 int main (){
 
-  double yardas=0, pulgadas=0, pies=0, millas=0, millasMarinas=0, metros=0;
+  double yardas, pulgadas=0, pies=0, millas=0, millasMarinas=0, metros=0;
 
   cout<< "Inserte una longitud cualquiera en yardas: "<< endl;
   cin>> yardas;
