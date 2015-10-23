@@ -1,6 +1,6 @@
 # FundamentosDeProgramacion
 Repositorio con todos los ejercicios y practicas de la asignatura de Fundamentos de Programación de la ETSIIT (Granada) durante el curso 2015-2016
 
-[Ejercicios Tema 1: Introduccion a C++](https://github.com/JArandaIzquierdo/FundamentosDeProgramacion/blob/master/EjerciciosTema1.md)
+[Ejercicios Relacion 1: Introduccion a C++](https://github.com/JArandaIzquierdo/FundamentosDeProgramacion/blob/master/EjerciciosRelacion1.md)
 
-[Ejercicios Tema 2: Estructuras de control](https://github.com/JArandaIzquierdo/FundamentosDeProgramacion/blob/master/EjerciciosTema2.md)
+[Ejercicios Relacion 2: Estructuras de control](https://github.com/JArandaIzquierdo/FundamentosDeProgramacion/blob/master/EjerciciosRelacion2.md)
