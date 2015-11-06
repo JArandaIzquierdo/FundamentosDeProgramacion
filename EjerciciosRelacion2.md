@@ -266,4 +266,84 @@ int main(){
     
 #####Se puede ver que la sucursal que más productos ha vendido es la número 2 con 41 unidades totales. Para comprobar que el programa funciona correctamente, cread un fichero de texto y re-dirigid la entrada a dicho fichero.
 
-[Ejercicio 29 Resuelto](https://github.com/JArandaIzquierdo/FundamentosDeProgramacion/blob/master/Ejercicios/EjerciciosRelacion2/Ejercicio29.cpp)
+[Ejercicio 30 Resuelto](https://github.com/JArandaIzquierdo/FundamentosDeProgramacion/blob/master/Ejercicios/EjerciciosRelacion2/Ejercicio30.cpp)
+
+#####31. Un número entero n se dice que es desgarrable (torn) si al dividirlo en dos partes cualesquiera izda y dcha, el cuadrado de la suma de ambas partes es igual a n. Por ejemplo, 88209 es desgarrable ya que (88 + 209)2 = 88209; 81 también lo es yaque81 = (8+1)2.Cread un programa que le aunente ron e indique si eso no desgarrable.
+
+[Ejercicio 31 Resuelto](https://github.com/JArandaIzquierdo/FundamentosDeProgramacion/blob/master/Ejercicios/EjerciciosRelacion2/Ejercicio31.cpp)
+
+#####32. Un número entero de n dígitos se dice que es narcisista si se puede obtener como la suma de las potencias n-ésimas de cada uno de sus dígitos. Por ejemplo 153 y 8208 son números narcisistas porque 153 = 13 + 53 + 33 (153 tiene 3 dígitos) y 8208 = 84 + 24 + 04 + 84 (8208 tiene 4 dígitos). Construir un programa que, dado un número entero positivo, nos indique si el número es o no narcisista.
+
+[Ejercicio 31 Resuelto](https://github.com/JArandaIzquierdo/FundamentosDeProgramacion/blob/master/Ejercicios/EjerciciosRelacion2/Ejercicio31.cpp)
+
+#####32. Un número entero de n dígitos se dice que es narcisista si se puede obtener como la suma de las potencias n-ésimas de cada uno de sus dígitos. Por ejemplo 153 y 8208 son números narcisistas porque 153 = 13 + 53 + 33 (153 tiene 3 dígitos) y 8208 = 84 + 24 + 04 + 84 (8208 tiene 4 dígitos). Construir un programa que, dado un número entero positivo, nos indique si el número es o no narcisista.
+
+[Ejercicio 32 Resuelto](https://github.com/JArandaIzquierdo/FundamentosDeProgramacion/blob/master/Ejercicios/EjerciciosRelacion2/Ejercicio32.cpp)
+
+#####33. Calcular mediante un programa en C++ la función potencia xn, y la función factorial n! con n un valor entero y x un valor real. No pueden usarse las funciones de la biblioteca cmath.
+#####El factorial de un entero n se define de la forma siguiente:
+	0! = 1
+	n! = 1×2×3×···n, ∀n ≥ 1
+    
+[Ejercicio 33 Resuelto](https://github.com/JArandaIzquierdo/FundamentosDeProgramacion/blob/master/Ejercicios/EjerciciosRelacion2/Ejercicio33.cpp)
+
+#####34. Calcular mediante un programa en C++ el combinatorio m con n, m valores enteros. No pueden usarse las funciones de la biblioteca cmath.
+#####El combinatorio de n sobre m (con n ≥ m) es un número entero que se define como sigue:
+ 	n   		n!
+	m = 	m! (n − m)!
+
+[Ejercicio 34 Resuelto](https://github.com/JArandaIzquierdo/FundamentosDeProgramacion/blob/master/Ejercicios/EjerciciosRelacion2/Ejercicio34.cpp)
+
+#####35. Todo lo que se puede hacer con un bucle while se puede hacer con un do while. Lo mismo ocurre al revés. Sin embargo, cada bucle se usa de forma natural en ciertas situaciones. El no hacerlo, nos obligará a escribir más código y éste será más difícil de entender. Para comprobarlo, haced lo siguiente:
+#####a) Modificad la solución del ejercicio 18 de forma que el filtro de entrada usado para leer la variable tope, se haga con un bucle pre-test while.
+#####b) Modificad la solución del ejercicio 19 sustituyendo el bucle while por un do while. Observad que debemos considerar el caso en el que el número de años leído fuese cero.
+
+[Ejercicio 35 Resuelto](https://github.com/JArandaIzquierdo/FundamentosDeProgramacion/blob/master/Ejercicios/EjerciciosRelacion2/Ejercicio35.cpp)
+
+#####36. Supongamos una serie numérica cuyo término general es:
+	ai = a1ri−1 −→ a1, a1r, a1r2, a1r3,...
+
+#####Se pide crear un programa que lea desde teclado r, el primer elemento a1 y el tope k y calcule la suma de los primeros k valores de la serie, es decir:
+				i=k  ai i=1
+#####Se proponen dos alternativas:
+#####a) Realizad la suma de la serie usando la función pow para el cómputo de cada término ai. Los argumentos de pow no pueden ser ambos enteros, por lo que forzaremos a que la base (por ejemplo) sea double, multiplicando por 1.0.
+#####b) Si analizamos la expresión algebraica de la serie numérica, nos damos cuenta que es una progresión geométrica ya que cada término de la serie queda definido por la siguiente expresión:
+				ai+1 = ai ∗ r
+#####Es decir, una progresión geométrica es una secuencia de elementos en la que cada uno de ellos se obtiene multiplicando el anterior por una constante denomi- nada razón o factor de la progresión.
+#####Cread el programa pedido usando esta fórmula. NO puede utilizarse la función pow.
+#####¿Qué solución es preferible en términos de eficiencia?
+
+[Ejercicio 36 Resuelto](https://github.com/JArandaIzquierdo/FundamentosDeProgramacion/blob/master/Ejercicios/EjerciciosRelacion2/Ejercicio36.cpp)
+
+#####37. Reescribid la solución a los ejercicios 18 (divisores) y 19 (interés) usando un bucle for
+
+[Ejercicio 37 Resuelto](https://github.com/JArandaIzquierdo/FundamentosDeProgramacion/blob/master/Ejercicios/EjerciciosRelacion2/Ejercicio37.cpp)
+
+#####38. Diseñar un programa para calcular la suma de los 100 primeros términos de la sucesión siguiente:
+			(−1)i(i2 − 1)
+	ai = --------------------
+				2i
+#####No puede usarse la función pow. Hacedlo calculando explícitamente, en cada itera- ción, el valor (−1)i (usad un bucle for). Posteriormente, resolvedlo calculando dicho valor a partir del calculado en la iteración anterior, es decir, (−1)i−1.
+
+[Ejercicio 38 Resuelto](https://github.com/JArandaIzquierdo/FundamentosDeProgramacion/blob/master/Ejercicios/EjerciciosRelacion2/Ejercicio38.cpp)
+
+
+#####39. El método RLE (Run Length Encoding) codifica una secuencia de datos formada por series de valores idénticos consecutivos como una secuencia de parejas de núme- ros (valor de la secuencia y número de veces que se repite). Esta codificación es un mecanismo de compresión de datos (zip) sin pérdidas. Se aplica, por ejemplo, para comprimir los ficheros de imágenes en las que hay zonas con los mismos datos (fon- do blanco, por ejemplo). Realizar un programa que lea una secuencia de números naturales terminada con un número negativo y la codifique mediante el método RLE.
+
+Entrada: 1 1 1 2 2 2 2 2 3 3 3 3 3 3 5 -1
+(tres veces 1, cinco veces 2, seis veces 3, una vez 5)
+Salida: 3 1 5 2 6 3 1 5
+
+[Ejercicio 39 Resuelto](https://github.com/JArandaIzquierdo/FundamentosDeProgramacion/blob/master/Ejercicios/EjerciciosRelacion2/Ejercicio39.cpp)
+
+#####40. Sobre la solución del ejercicio 19 de esta relación de problemas, se pide lo siguiente. Supondremosquesólopuedenintroducirseinteresesenteros(1, 2, 3,etc).Sepide calcular el capital obtenido al término de cada año, pero realizando los cálculos para todos los tipos de interés enteros menores o iguales que el introducido (en pasos de 1). Por ejemplo, si el usuario introduce un interés igual a 5 y un número de años igual a 3, hay que mostrar el capital ganado al término de cada uno de los tres años a un interés del 1 %, a continuación, lo mismo para un interés del 2 % y así sucesivamente hasta llegar al 5 %. El programa debe mostrar una salida del tipo:
+    Cálculos realizados al 1%:
+      Dinero obtenido en el año número 1 = 2020
+      Dinero obtenido en el año número 2 = 2040.2
+      Dinero obtenido en el año número 3 = 2060.6
+    Cálculos realizados al 2%:
+      Dinero obtenido en el año número 1 = 2040
+      Dinero obtenido en el año número 2 = 2080.8
+      Dinero obtenido en el año número 3 = 2122.42
+
+[Ejercicio 40 Resuelto](https://github.com/JArandaIzquierdo/FundamentosDeProgramacion/blob/master/Ejercicios/EjerciciosRelacion2/Ejercicio40.cpp)
