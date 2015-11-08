@@ -72,7 +72,7 @@
     • El carácter no era una letra.
 #####Hágalo separando E/S y C
 
-[Ejercicio 12 Resuelto](https://github.com/JArandaIzquierdo/FundamentosDeProgramacion/blob/master/Ejercicios/EjerciciosRelacion2/Ejercicio12.cpp)
+[Ejercicio 12 Resuelto](https://github.com/JArandaIzquierdo/FundamentosDeProgramacion/blob/master/Ejercicios/EjerciciosRelacion2/Ejercicio8.cpp)
 
 
 #####13. Cread un programa que lea los datos fiscales da una persona, reajuste su renta bruta según el criterio que se indica posteriormente e imprima su renta neta final.
