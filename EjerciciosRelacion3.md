@@ -34,3 +34,8 @@ bool EsPositivo(int valor){
 }
 ```
 Si el valor es negativo no devuleve que el falso
+
+#####2. Cread una función que calcule el máximo entre tres double. La cabecera de la fun- ción será la siguiente:
+	double Max(double un_valor, double otro_valor, double el_tercero)
+#####Construid un programa principal que llame a dicha función con unos valores leídos desde teclado. Supongamos que dichos valores los leemos con cin dentro de la pro- pia función, en vez de hacerlo en el main. El suspenso está garantizado ¿Por qué?
+[Ejercicio 2 resuelto]()
