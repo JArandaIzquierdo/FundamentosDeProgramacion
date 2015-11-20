@@ -3,9 +3,9 @@ using namespace std;
 
 bool LeeOpcion2Alternarivas (char v){
 
-      if(v == s || v == S)
+      if(v == 's' || v == 'S')
             return true;
-      else if(v == n || v == N)
+      else if(v == 'n' || v == 'N')
             return false;
       else {
             cout << "El caracter no es correcto"<<endl;
@@ -19,5 +19,10 @@ int main(){
       cin >> volar;
 
       quiereVolar=LeeOpcion2Alternarivas(volar);
+
+      if (quiereVolar == true)
+            cout << "si quiere volar"<<endl;
+      else
+            cout << "no quiere volar"<<endl;
 
 }
