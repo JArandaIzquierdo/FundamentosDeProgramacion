@@ -53,3 +53,13 @@ Si el valor es negativo no devuleve que el falso
 
 #####6. A un trabajador le pagan según sus horas trabajadas y la tarifa está a un valor por hora. Si la cantidad de horas trabajadas es mayor de 40 horas, la tarifa por hora se incrementa en un 50 % para las horas extras (las que haya por encima de 40). Construir una función que dado el número total de horas trabajadas y el precio por hora, devuelva el salario del trabajador.
 [Ejercicio 6 resuelto](https://github.com/JArandaIzquierdo/FundamentosDeProgramacion/blob/master/Ejercicios/EjerciciosRelacion3/Ejercicio6.cpp)
+
+#####11. Examen Septiembre 2014. Dos números amigos son dos números naturales a y b, tales que la suma de los divisores propios de a más uno es igual a b, y viceversa. Un ejemplo de números amigos es el par de naturales (220; 284), ya que:
+	• Los divisores propios de 220 son 2, 4, 5, 10, 11, 20, 22, 44, 55 y 110, que suman 283, y 283 + 1 = 284.
+	• Los divisores propios de 284 son 2, 4, 71 y 142, que suman 219, y 219 + 1 = 220. Realice un programa que implemente estas dos tareas:
+    
+	a) En primer lugar debe leer dos números naturales e indicar si son o no amigos.
+    
+    b) A continuación leerá otro número natural, n, e informará si existe algún número amigo de n en el intervalo centrado en n y de radio 3. 
+
+Utilice las funciones que estime oportuno.
