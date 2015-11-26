@@ -61,4 +61,6 @@ Si el valor es negativo no devuleve que el falso
     
     b) A continuación leerá otro número natural, n, e informará si existe algún número amigo de n en el intervalo centrado en n y de radio 3. 
 
-Utilice las funciones que estime oportuno.
+#####Utilice las funciones que estime oportuno.
+
+[Ejercicio 11 resuelto](https://github.com/JArandaIzquierdo/FundamentosDeProgramacion/blob/master/Ejercicios/EjerciciosRelacion3/Ejercicio11.cpp)
