@@ -1,42 +1,35 @@
 #include <iostream>
 #include <cmath>
-
 using namespace std;
-
 int main(){
+      int numero, copia, cifras=0, ultimaCifra;
+      double suma = 0;
+      bool esNarcisista;
 
-    int entero, digito, narcisista=0, i=0;
-    int modulo, aux, aux2, div =1;
-    double operacion;
+      cout<< "Introduce un numero: ";
+      cin>> numero;
 
-    do{
-    	 cout << "Introduce un entero positivo: ";
-        cin >> entero;
-    }while (entero < 0);
+      copia = numero;
 
-    aux = entero;
-    aux2 = entero;
+      //Contamos cuantos digitos tiene el numero
+      while(copia >0){
+            copia = copia / 10;
+            cifras++;
+      }
 
-    while(digito !=0 ){
-        aux2 = aux2 / 10;
-        digito = aux2 % 10;
-        i++;
-    }
+      cout <<"El numero tiene "<< cifras << " digitos"<< endl;
+      copia = numero;
 
-    for(int j=0; j<i-1; j++)
-        div = div *10;
+      for(int i=1; i <= cifras; i++){
+            ultimaCifra = copia % 10;
+            suma = suma + pow (1.0 * ultimaCifra, cifras);
+            copia = copia / 10;
+      }
 
-    while (div !=0){
-        modulo = aux % div;
-        digito = aux / div;
-        operacion = pow(digito,i);
-        narcisista = operacion + narcisista ;
-        div = div / 10;
-        aux = modulo;
-    }
+      if (suma == numero){
+            cout << "El numero ES narcisista"<< endl;
+      }
+      else
+            cout << "El nuemro NO ES narcisista"<< endl;
 
-    if(narcisista==entero)
-        cout << "El numero es narcisista"<<endl;
-    else
-        cout << "El numero no es narcisista"<<endl;;
 }
