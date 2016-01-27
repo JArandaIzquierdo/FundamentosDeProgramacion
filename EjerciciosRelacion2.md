@@ -298,7 +298,9 @@ int main(){
 #####a) Modificad la solución del ejercicio 18 de forma que el filtro de entrada usado para leer la variable tope, se haga con un bucle pre-test while.
 #####b) Modificad la solución del ejercicio 19 sustituyendo el bucle while por un do while. Observad que debemos considerar el caso en el que el número de años leído fuese cero.
 
-[Ejercicio 35 Resuelto](https://github.com/JArandaIzquierdo/FundamentosDeProgramacion/blob/master/Ejercicios/EjerciciosRelacion2/Ejercicio35.cpp)
+[Ejercicio 18 Resuelto](https://github.com/JArandaIzquierdo/FundamentosDeProgramacion/blob/master/Ejercicios/EjerciciosRelacion2/Ejercicio18.cpp)
+
+[Ejercicio 19 Resuelto](https://github.com/JArandaIzquierdo/FundamentosDeProgramacion/blob/master/Ejercicios/EjerciciosRelacion2/Ejercicio19.cpp)
 
 #####36. Supongamos una serie numérica cuyo término general es:
 	ai = a1ri−1 −→ a1, a1r, a1r2, a1r3,...
