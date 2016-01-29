@@ -112,3 +112,11 @@ Si el valor es negativo no devuleve que el falso
 #####Añada un método privado que nos indique si los coeficientes son correctos, es decir, A y B no pueden ser simultáneamente nulos. Llame a este método en el constructor y en el método SetCoeficientes y realice las operaciones que estime oportuno en el caso de que los coeficientes pasados como parámetros no sean correctos.
 
 [Ejercicio 15G resuelto](https://github.com/JArandaIzquierdo/FundamentosDeProgramacion/blob/master/Ejercicios/EjerciciosRelacion3/Ejercicio15G.cpp)
+
+#####Definir la clase AlumnoFP, que almacene el nombre, el primer apellido, el DNI del alumno y cada una de las partes consideradas en la evaluación de la asignatura: teo- ría, parcial_pract1, parcial_pract2, participación_clase. La escala utilizada para eva- luar cada parte es de 0 a 10.
+	• Construir los constructores necesarios para poder asignar valores a los miembros de la clase.
+	• Construir un método que calcule la nota final del alumno. Para ello se debe de tener en cuenta los porcentajes de las distintas partes consideradas: 70 % teoría, 5 % parcial 1, 15 % parcial 2 y 10 % participación.
+	• Construir un método que calcule la nota final del alumno.
+	• Construir un programa que lea los datos del alumno y en caso de haber obtenido una nota inferior a 5 en alguna de las partes que indique la nota obtenida en dicha parte.
+
+[Ejercicio 16 resuelto](https://github.com/JArandaIzquierdo/FundamentosDeProgramacion/blob/master/Ejercicios/EjerciciosRelacion3/Ejercicio16.cpp)
