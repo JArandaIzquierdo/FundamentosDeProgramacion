@@ -130,3 +130,14 @@ Si el valor es negativo no devuleve que el falso
 	– Volver al menú principal.
 
 [Ejercicio 21 resuelto](https://github.com/JArandaIzquierdo/FundamentosDeProgramacion/blob/master/Ejercicios/EjerciciosRelacion3/Ejercicio21.cpp)
+
+#####22. Se quiere construir una clase Nomina para realizar la funcionalidad descrita en el ejercicio 18 de la relación de problemas I sobre la nómina del fabricante y diseñador (página RP-I.6). Cread los siguientes programas (entregad un fichero por cada uno de los apartados):
+#####a) Suponed que sólo gestionamos la nómina de una empresa en la que hay un fabri- cante y tres diseñadores. Los salarios brutos se obtienen al repartir los ingresos de la empresa, de forma que el diseñador cobra el doble de cada fabricante.
+#####El programa leerá el valor de los ingresos totales y calculará los salarios brutos de los fabricantes y diseñador, llamando a los métodos oportunos de la clase Nomina.
+
+[Ejercicio 22A resuelto](https://github.com/JArandaIzquierdo/FundamentosDeProgramacion/blob/master/Ejercicios/EjerciciosRelacion3/Ejercicio22A.cpp)
+
+#####b) Supongamos que se aplica una retención fiscal y que ésta es la misma para los fabricantes y el diseñador. En el constructor se establecerá el porcentaje de retención fiscal (de tipo double) y posteriormente no se permitirá que cambie, de forma que todas las operaciones que se hagan serán siempre usando la misma retención fiscal. Los salarios netos se obtienen al aplicar la retención fiscal a los salarios brutos (después de repartir los ingresos totales de la empresa):
+       salario_neto = salario_bruto - salario_bruto * retencion_fiscal / 100.0
+
+[Ejercicio 22B resuelto](https://github.com/JArandaIzquierdo/FundamentosDeProgramacion/blob/master/Ejercicios/EjerciciosRelacion3/Ejercicio22B.cpp)
