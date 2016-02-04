@@ -33,8 +33,16 @@ public:
     }
 
     //Calculamos los años que transcurriran hasta lograr el doble del capital
-    int calcularAnios(double capital){
+    int calcularAnios(){
+        double dobleCapital = capital * 2;
+        double copia = capital;
+        int anios=0;
 
+        while(copia < dobleCapital){
+            copia = copia + ((capital*interes)/100.0);
+            anios++;
+        }
+        return anios;
     }
 };
 
@@ -71,6 +79,19 @@ int main(){
 
                 cout<<"El total de capital en "<< anios << " años es de: "<< totalCapital << endl;
 
+            }
+            if(opcion == 2){
+                cout<<"Introduce el capital inicial: ";
+                cin>>capital;
+
+                cout<<"Introduce el interes: ";
+                cin>>interes;
+
+                DepositoSimulacion deposito (capital, interes);
+
+                anios = deposito.calcularAnios();
+
+                cout<<"Tienen que transcurrir "<< anios << " años para tener el doble de tu capital"<<endl;
             }
 
     }
