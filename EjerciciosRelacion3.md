@@ -120,3 +120,13 @@ Si el valor es negativo no devuleve que el falso
 	• Construir un programa que lea los datos del alumno y en caso de haber obtenido una nota inferior a 5 en alguna de las partes que indique la nota obtenida en dicha parte.
 
 [Ejercicio 16 resuelto](https://github.com/JArandaIzquierdo/FundamentosDeProgramacion/blob/master/Ejercicios/EjerciciosRelacion3/Ejercicio16.cpp)
+
+#####21. Recuperad la solución del ejercicio 15 (recta) de esta relación de problemas. Se pide crear un programa principal que haga lo siguiente:
+	• Se presentará al usuario un menú principal para salir del programa o para intro- ducir los valores de los coeficientes A, B, C de la recta.
+	• Una vez introducidos los coeficientes se presentará al usuario un segundo menú, para que elija alguna de las siguiente opciones:
+	– Mostrar el valor de la pendiente de la recta.
+	– Motrar la ordenada dada una abscisa (el programa tendrá que pedir la abscisa)
+	– Mostrar la abscisa dada una ordenada (el programa tendrá que pedir la or- denada)
+	– Volver al menú principal.
+
+[Ejercicio 21 resuelto](https://github.com/JArandaIzquierdo/FundamentosDeProgramacion/blob/master/Ejercicios/EjerciciosRelacion3/Ejercicio21.cpp)

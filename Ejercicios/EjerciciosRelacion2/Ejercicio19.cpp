@@ -4,7 +4,7 @@ using namespace std;
 
 int main(){
 
-    int anios, nAnios;
+    int anios, nAnios=0;
     double capital, interes;
 
     cout << "Introduce el numero de anios: ";
