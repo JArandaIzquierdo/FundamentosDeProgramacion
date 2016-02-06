@@ -141,3 +141,26 @@ Si el valor es negativo no devuleve que el falso
        salario_neto = salario_bruto - salario_bruto * retencion_fiscal / 100.0
 
 [Ejercicio 22B resuelto](https://github.com/JArandaIzquierdo/FundamentosDeProgramacion/blob/master/Ejercicios/EjerciciosRelacion3/Ejercicio22B.cpp)
+
+#####c) Supongamos que gestionamos las nóminas de varias sucursales de una empre- sa. Queremos crear objetos de la clase Nomina que se adapten a las caracterís- ticas de cada sucursal:
+	• En cada sucursal hay un único diseñador pero el número de fabricantes es distinto en cada sucursal. Por tanto, el número de fabricantes habrá que es- pecificarlo en el constructor y posteriormente no podrá cambiarse.
+
+	• La forma de repartir el dinero es la siguiente: el diseñador se lleva una parte del total y el resto se reparte a partes iguales entre los fabricantes. En los apartados anteriores, por ejemplo, la parte que se llevaba el diseñador era 2/5 y el resto (3/5) se repartía entre los tres fabricantes. La parte que el di- señador se lleva puede ser distinta entre las distintas sucursales (2/5, 1/6, etc), pero no cambia nunca dentro de una misma sucursal. Por tanto, el por- centaje de ganancia (2/5, 1/6, etc) habrá que especificarlo en el constructor y posteriormente no podrá cambiarse.
+    
+    • Lasretencionesfiscalesdelosfabricantesydiseñadorsondistintas.Además, se prevé que éstas puedan ir cambiando durante la ejecución del programa. Por lo tanto, no se incluirán como parámetros en el constructor.
+
+#####El programa leerá los siguientes datos desde un fichero externo:
+	• El número de sucursales.
+	• Los siguientes valores por cada una de las sucursales:
+		– Ingresos totales a repartir
+		– Número de fabricantes
+		– Parte que se lleva el diseñador
+		– Retención fiscal del diseñador
+		– Retención fiscal de los fabricantes
+        
+#####Por ejemplo, el siguiente fichero indica que hay dos sucursales. La primera tiene unos ingresos de 300 euros, 3 fabricantes, el diseñador se lleva 1/6, la retención del diseñador es del 20 % y la de cada fabricante un 18 %. Los datos para la segunda son 400 euros, 5 fabricantes, 1/4, 22 % y 19 %.
+	
+          2
+          300 3 6 20 18
+          400 5 4 22 19
+#####El programa tendrá que imprimir los salarios brutos y netos del diseñador y de los fabricantes por cada una de las sucursales, llamando a los métodos oportunos de la clase Nomina.
