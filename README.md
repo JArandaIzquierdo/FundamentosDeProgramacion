@@ -1,7 +1,7 @@
 # FundamentosDeProgramacion
 Repositorio con todos los ejercicios y practicas de la asignatura de Fundamentos de Programación de la ETSIIT (Granada).
 
-###Ejercicios:
+### Ejercicios:
 
 [Ejercicios Relacion 1: Introduccion a C++](https://github.com/JArandaIzquierdo/FundamentosDeProgramacion/blob/master/EjerciciosRelacion1.md)
 
@@ -9,5 +9,5 @@ Repositorio con todos los ejercicios y practicas de la asignatura de Fundamentos
 
 [Ejercicios Relacion 3: Funciones y clases](https://github.com/JArandaIzquierdo/FundamentosDeProgramacion/blob/master/EjerciciosRelacion3.md)
 
-###Practicas:
+### Practicas:
 [Relacion 1 practicas:]()
