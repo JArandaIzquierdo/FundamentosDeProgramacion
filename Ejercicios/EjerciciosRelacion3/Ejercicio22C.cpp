@@ -7,6 +7,8 @@ private:
             gananciaParcial,
             retencion;
 
+    int numeroFabri;
+
 
 public:
     //Constructor
@@ -22,6 +24,11 @@ public:
             cin>>reten;
         }
         retencion = reten;
+        while(numeroFabricantes <= 0){
+            cout<<"El numero de fabricantes tiene que ser mayor que 0, introduzcalo de nuevo: ";
+            cin>>numeroFabricantes;
+        }
+        numeroFabri = numeroFabricantes;
     }
     //Metodo para calcular la ganancia del diseñador
     void gananciaDiseniador(){
