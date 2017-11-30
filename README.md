@@ -10,4 +10,4 @@ Repositorio con todos los ejercicios y practicas de la asignatura de Fundamentos
 [Ejercicios Relacion 3: Funciones y clases](https://github.com/JArandaIzquierdo/FundamentosDeProgramacion/blob/master/EjerciciosRelacion3.md)
 
 ### Practicas:
-[Relacion 1 practicas:]()
+[Relacion 1 practicas](https://github.com/JArandaIzquierdo/FundamentosDeProgramacion/blob/master/Practicas/Practica1/Relacion1.md)
